@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMRummy</title>
+    <link rel="stylesheet" href="./assests/bootstrap.min.css">
+    <style>
+        * {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            margin-bottom: 24px;
+        }
+
+        nav {
+            background-color: #021a38;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.247);
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .title {
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: 600;
+            margin-bottom: 0px;
+        }
+
+        nav img {
+            height: 60%;
+            width: auto;
+        }
+
+        body {
+            background-color: #021a38;
+        }
+
+        .images {
+            border: 1px solid rgba(218, 165, 32, 0.534);
+            margin: 15px 25px 10px 25px;
+            border-radius: 10px;
+
+        }
+
+        .images img {
+            width: 80%;
+        }
+
+        .section-heading {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .icon-box {
+            text-align: center;
+            padding: 15px;
+            background-color: azure;
+            border-radius: 10px;
+        }
+
+        .icon-box img {
+            height: 50px;
+            width: 50px;
+        }
+
+        .big {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .text {
+            font-size: 1.2rem;
+        }
+
+        .pulsate-bck {
+            -webkit-animation: pulsate-bck 1.5s ease-in-out infinite both;
+            animation: pulsate-bck 1.5s ease-in-out infinite both;
+        }
+
+        @-webkit-keyframes pulsate-bck {
+            0% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+
+            50% {
+                -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+            }
+
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+
+        @keyframes pulsate-bck {
+            0% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+
+            50% {
+                -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+            }
+
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+
+        .pulsate-bck1 {
+            -webkit-animation: pulsate-bck1 1.5s ease-in-out 1s infinite both;
+            animation: pulsate-bck1 1.5s ease-in-out 1s infinite both;
+        }
+
+        @-webkit-keyframes pulsate-bck1 {
+            0% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+
+            50% {
+                -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+            }
+
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+
+        @keyframes pulsate-bck1 {
+            0% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+
+            50% {
+                -webkit-transform: scale(0.9);
+                transform: scale(0.9);
+            }
+
+            100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+
+        .button1 {
+            width: 100%;
+            padding: 10px;
+            background-color: #021a38;
+        }
+
+        .sticky {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 1000;
+            border-top: black 1px solid;
+        }
+
+        @media (min-width: 700px) {
+
+            html,
+            body {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column align-items-center justify-content-center">
+    <nav>
+        <img src="./assests/logo.webp" alt="IMRummy">
+    </nav>
+
+    <p class="title">Play Online Cash Games & Win Real Money with Instant Withdrawals</p>
+
+    <div class="d-flex flex-column align-items-center justify-content-center images">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+            <div class="d-flex flex-row align-items-center justify-content-center">
+                <img src="./assests/1.webp" alt="1" class="pulsate-bck" style="width: 44%; margin-top: 10px;">
+                <img src="./assests/2.webp" alt="2" class="pulsate-bck1" style="width: 50%; margin-top: 10px;">
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="./assests/person.webp" alt="person">
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center button1">
+        <button class="btn btn-success sticky-button pulsate-bck1"
+            style="width: 80%; margin-top: 8px; background-color: #34C759; background-image: linear-gradient(to bottom, #34C759, #008000); font-size: 20px; font-weight: 600;">Download
+            Now</button>
+    </div>
+
+
+    <section id="accomplishmentCares" class="container mt-3">
+        <div class="text-center">
+            <h2 class="section-heading">Credibility</h2>
+        </div>
+
+        <div class="row g-3 justify-content-center">
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <img src="./assests/players.svg" loading="lazy" alt="players">
+                    <div class="big">7 Crore +</div>
+                    <div class="text">Players</div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <img src="./assests/years.svg" loading="lazy" alt="years">
+                    <div class="big">19 Years</div>
+                    <div class="text">of Gaming</div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <img src="./assests/shield.svg" loading="lazy" alt="shield">
+                    <div class="big">100%</div>
+                    <div class="text">Trusted & Secure</div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <img src="./assests/responsible.svg" loading="lazy" alt="responsible">
+                    <div class="big">Responsible</div>
+                    <div class="text">Gaming</div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <img src="./assests/fair.svg" loading="lazy" alt="fair">
+                    <div class="big">Fair</div>
+                    <div class="text">Gameplay</div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="icon-box">
+                    <img src="./assests/break.svg" loading="lazy" alt="break">
+                    <div class="big">Break</div>
+                    <div class="text">In Gaming</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="copyright"
+        style="color: white; margin-top: 10px; background-color: rgba(255, 255, 255, 0.192); width: 100%;">
+        <div class="container text-center d-flex  align-items-center justify-content-center" style="margin-top: 10px;">
+            <p>&copy; 2025 IMRummy. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        window.addEventListener("scroll", function () {
+            let buttonDiv = document.querySelector(".button1");
+            if (window.scrollY > 0) {
+                buttonDiv.style.transition = "background-color 0.2s ease-in-out";
+                buttonDiv.style.backgroundColor = "#021a38";
+                buttonDiv.classList.add("sticky");
+            } else {
+                buttonDiv.style.backgroundColor = "";
+                buttonDiv.classList.remove("sticky");
+            }
+        });
+    </script>
+</body>
+
+</html>
